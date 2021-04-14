@@ -1,0 +1,201 @@
+@charset "UTF-8";
+@media (min-width: 768px) and (max-width: 1200px) {
+  /* line 2, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+  .section1 {
+    height: auto;
+    padding: 40px 0 10px; }
+    /* line 6, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+    .section1 .banner img.main_banner {
+      width: 82%;
+      margin-top: 20px; }
+  /* line 12, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+  .slider_test {
+    width: 93%;
+    background-size: contain; }
+  /* line 17, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+  .section3 .popup_inner {
+    width: 70%;
+    left: 15%;
+    top: 15%; }
+  /* line 24, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+  .section4 {
+    padding: 80px 0;
+    height: auto; }
+    /* line 27, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+    .section4 img.title {
+      margin-top: 10px;
+      height: 75px; }
+    /* line 31, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+    .section4 img.event_img {
+      width: 90%; }
+    /* line 34, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+    .section4 img.logo {
+      height: 70px; } }
+
+@media (min-width: 320px) and (max-width: 768px) {
+  /* line 46, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+  .header .icon {
+    left: 20px; }
+    /* line 48, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+    .header .icon img {
+      width: 70%; }
+  /* line 54, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+  .company_logo img {
+    width: 60%; }
+  /* line 58, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+  .quick {
+    text-align: right;
+    top: 20px;
+    right: 20px; }
+    /* line 63, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+    .quick a img {
+      width: 55%; }
+  /* line 68, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+  .section1 {
+    height: auto;
+    padding: 100px 0; }
+    /* line 72, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+    .section1 .banner .text {
+      width: 70%; }
+    /* line 75, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+    .section1 .banner img.main_banner {
+      width: 90%;
+      margin-top: 35px; }
+    /* line 79, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+    .section1 .banner a.goto_reservation {
+      top: 0; }
+      /* line 81, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+      .section1 .banner a.goto_reservation img {
+        width: 70%; }
+  /* line 87, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+  .section2 {
+    height: auto;
+    padding: 50px 0; }
+    /* line 90, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+    .section2 img.title {
+      width: 80%;
+      margin: 15px 0 40px; }
+  /* line 95, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+  .slider_test {
+    width: 93%;
+    background-size: contain;
+    padding: 20px 0; }
+    /* line 99, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+    .slider_test .slick-slide {
+      padding: 0 40px; }
+    /* line 102, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+    .slider_test [type=button] {
+      width: 40px;
+      height: 40px; }
+  /* line 110, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+  .section3 .menu_popup {
+    width: 270px; }
+    /* line 113, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+    .section3 .menu_popup .menu_inner .close {
+      top: 20px;
+      left: 15px; }
+      /* line 116, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+      .section3 .menu_popup .menu_inner .close img {
+        width: 80%; }
+  /* line 123, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+  .section3 .reservation_title img.title {
+    width: 75%;
+    margin-bottom: 15px; }
+  /* line 127, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+  .section3 .reservation_title img.subtitle {
+    width: 90%; }
+  /* line 132, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+  .section3 .select_btn .input_area {
+    display: block;
+    width: 90%;
+    margin: 10px auto 20px; }
+    /* line 136, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+    .section3 .select_btn .input_area span {
+      font-size: 26px; }
+    /* line 139, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+    .section3 .select_btn .input_area input {
+      font-size: 26px; }
+  /* line 143, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+  .section3 .select_btn .list_item {
+    margin: 10px 3px; }
+    /* line 145, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+    .section3 .select_btn .list_item .label {
+      padding: 0 20px; }
+      /* line 147, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+      .section3 .select_btn .list_item .label img {
+        width: 90px; }
+  /* line 153, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+  .section3 .select_btn .btn a {
+    margin-bottom: 20px; }
+    /* line 155, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+    .section3 .select_btn .btn a img {
+      width: 80%; }
+  /* line 161, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+  .section3 .agree {
+    width: 100%;
+    padding: 15px 5%; }
+    /* line 164, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+    .section3 .agree hr {
+      margin: 5px 0 12px; }
+    /* line 167, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+    .section3 .agree label.explanation {
+      line-height: 30px;
+      width: 100%;
+      padding-right: 10px; }
+      /* line 171, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+      .section3 .agree label.explanation a {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+        padding: 6px 0 3px; }
+        /* line 176, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+        .section3 .agree label.explanation a label.btn {
+          font-size: 17px;
+          width: 100%; }
+  /* line 184, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+  .section3 .popup_inner {
+    width: 90%;
+    top: 5%;
+    left: 5%;
+    padding: 20px 0; }
+  /* line 190, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+  .section3 .popup_sub {
+    top: 35%; }
+  /* line 193, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+  .section3 .privacy_text {
+    padding-top: 0; }
+    /* line 195, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+    .section3 .privacy_text h3 {
+      margin-bottom: 15px; }
+    /* line 198, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+    .section3 .privacy_text p {
+      font-size: 15px;
+      line-height: 24px; }
+  /* line 203, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+  .section3 .privacy_btn {
+    margin: 0 0 10px;
+    padding: 0;
+    text-align: center; }
+  /* line 209, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+  .section3 .popup_btn .confirm {
+    font-size: 16px; }
+  /* line 217, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+  .section4 {
+    padding: 80px 0 120px;
+    height: auto; }
+    /* line 220, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+    .section4 img.title {
+      margin-top: 10px;
+      width: 80%; }
+    /* line 224, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+    .section4 img.event_img {
+      width: 90%; }
+    /* line 227, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/media.scss */
+    .section4 img.logo {
+      height: 60px;
+      position: relative;
+      top: auto;
+      right: auto;
+      margin-bottom: 10px; } }
+
+/*# sourceMappingURL=media.css.map */

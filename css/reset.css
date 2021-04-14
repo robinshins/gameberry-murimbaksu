@@ -1,0 +1,58 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+/* line 4, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/reset.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s,
+samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 1rem;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  border-radius: 0;
+  font-weight: normal;
+  font-size: 16px;
+  font-family: 'Noto Sans KR', sans-serif; }
+
+/* line 22, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/reset.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 25, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/reset.scss */
+body {
+  line-height: 1;
+  overflow-x: hidden; }
+
+/* line 30, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/reset.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 33, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/reset.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 36, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 41, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 45, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/reset.scss */
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* RESET END */
+
+/*# sourceMappingURL=reset.css.map */

@@ -1,0 +1,236 @@
+@media (min-width:768px) and (max-width:1200px) {
+    .section1 {
+        height: auto;
+        padding: 40px 0 10px;
+        .banner {
+            img.main_banner {
+                width: 82%;
+                margin-top: 20px;
+            }
+        }
+    }
+    .slider_test {
+        width: 93%;
+        background-size: contain;
+    }
+    .section3 {
+        .popup_inner {
+            width: 70%;
+            left: 15%;
+            top: 15%;
+        }
+        
+    }
+    .section4 {
+        padding: 80px 0;
+        height: auto;
+        img.title {
+            margin-top: 10px;
+            height: 75px;
+        }
+        img.event_img {
+            width: 90%;
+        }
+        img.logo {
+            height: 70px;
+        }
+    }
+}
+
+
+
+
+
+@media (min-width:320px) and (max-width:768px) {
+    .header {
+        .icon {
+            left: 20px;
+            img {
+                width: 70%;
+            }
+        }
+    }
+    .company_logo {
+        img {
+            width: 60%;
+        }
+    }
+    .quick {
+        text-align: right;
+        top: 20px;
+        right: 20px;
+        a {
+            img {
+                width: 55%;
+            }
+        }
+    }
+    .section1 {
+        height: auto;
+        padding: 100px 0;
+        .banner {
+            .text {
+                width: 70%;
+            }
+            img.main_banner {
+                width: 90%;
+                margin-top: 35px;
+            }
+            a.goto_reservation {
+                top: 0;
+                img {
+                    width: 70%;
+                }
+            }
+        }
+    }
+    .section2 {
+        height: auto;
+        padding: 50px 0;
+        img.title {
+            width: 80%;
+            margin: 15px 0 40px;
+        }
+    }
+    .slider_test {
+        width: 93%;
+        background-size: contain;
+        padding: 20px 0;
+        .slick-slide {
+            padding: 0 40px;
+        }
+        [type=button] {
+            width: 40px;
+            height: 40px;
+        }
+    }
+    
+    
+    .section3 {
+        .menu_popup {
+            width: 270px;
+            .menu_inner {
+                .close {
+                    top: 20px;
+                    left: 15px;
+                    img {
+                        width: 80%;
+                    }
+                }
+            }
+        }
+        .reservation_title {
+            img.title {
+                width: 75%;
+                margin-bottom: 15px;
+            }
+            img.subtitle {
+                width: 90%;
+            }
+        }
+        .select_btn {
+            .input_area {
+                display: block;
+                width: 90%;
+                margin: 10px auto 20px;
+                span {
+                    font-size: 26px;
+                }
+                input {
+                    font-size: 26px;
+                }
+            }
+            .list_item {
+                margin: 10px 3px;
+                .label {
+                    padding: 0 20px;
+                    img {
+                        width: 90px;
+                    }
+                }
+            }
+            .btn {
+                a {
+                    margin-bottom: 20px;
+                    img {
+                        width: 80%;
+                    }
+                }
+            }
+        }
+        .agree {
+            width: 100%;
+            padding: 15px 5%;
+            hr {
+                margin: 5px 0 12px;
+            }
+            label.explanation {
+                line-height: 30px;
+                width: 100%;
+                padding-right: 10px;
+                a {
+                    display: block;
+                    text-align: center;
+                    margin: 10px 0;
+                    padding: 6px 0 3px;
+                    label.btn {
+                        font-size: 17px;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        
+        .popup_inner {
+            width: 90%;
+            top: 5%;
+            left: 5%;
+            padding: 20px 0;
+        }
+        .popup_sub {
+            top: 35%;
+        }
+        .privacy_text {
+            padding-top: 0;
+            h3 {
+                margin-bottom: 15px;
+            }
+            p {
+                font-size: 15px;
+                line-height: 24px;
+            }
+        }
+        .privacy_btn {
+            margin: 0 0 10px;
+            padding: 0;
+            text-align: center;
+        }
+        .popup_btn {
+            .confirm {
+                font-size: 16px;
+            }
+        }
+        
+    }
+    
+    
+    .section4 {
+        padding: 80px 0 120px;
+        height: auto;
+        img.title {
+            margin-top: 10px;
+            width: 80%;
+        }
+        img.event_img {
+            width: 90%;
+        }
+        img.logo {
+            height: 60px;
+            position: relative;
+            top:auto;
+            right: auto;
+            margin-bottom: 10px;
+        }
+    }
+    
+}
