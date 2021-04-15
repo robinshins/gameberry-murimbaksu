@@ -1,45 +1,44 @@
-@charset "UTF-8";
 @font-face {
   font-family: 'BMEULJIRO';
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/BMEULJIRO.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
-/* line 9, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+/* line 9, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
 body {
   position: relative; }
 
-/* line 13, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+/* line 13, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
 .quick {
   position: fixed;
   right: 25px;
   top: 25px;
   z-index: 99; }
 
-/* line 20, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+/* line 20, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
 .company_logo {
   position: fixed;
   left: 25px;
   bottom: 20px;
   z-index: 99; }
 
-/* line 29, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+/* line 29, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
 .header {
   position: relative;
   z-index: 999; }
-  /* line 32, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+  /* line 32, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
   .header .icon {
     position: fixed;
     top: 25px;
     left: 25px;
     cursor: pointer; }
 
-/* line 43, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+/* line 43, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
 .container {
   text-align: center;
   height: 850px; }
 
-/* line 48, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+/* line 48, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
 .section1 {
   background-image: url(../img/section1_bg.png);
   background-position: center;
@@ -48,37 +47,37 @@ body {
   height: 850px;
   text-align: center;
   position: relative; }
-  /* line 57, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+  /* line 57, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
   .section1 .banner {
     display: inline-block; }
-    /* line 60, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+    /* line 60, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
     .section1 .banner .text {
       position: relative;
       top: 30px;
       margin-top: 40px; }
-    /* line 65, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+    /* line 65, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
     .section1 .banner a.goto_reservation {
       display: inline-block;
       position: relative;
       top: -90px; }
 
-/* line 75, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+/* line 75, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
 .section2 {
   background-color: #d2d9e0;
   background-image: url(../img/section4_bg.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }
-  /* line 81, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+  /* line 81, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
   .section2 img.title {
     margin-top: 80px; }
-  /* line 85, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+  /* line 85, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
   .section2 .slider_area {
     position: relative; }
-    /* line 87, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+    /* line 87, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
     .section2 .slider_area .slider_bg {
       position: absolute; }
-    /* line 91, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+    /* line 91, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
     .section2 .slider_area #slider {
       display: inline-block;
       height: 450px;
@@ -88,7 +87,7 @@ body {
       position: relative;
       left: 80px;
       top: -100px; }
-      /* line 101, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+      /* line 101, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
       .section2 .slider_area #slider ul {
         list-style-type: none;
         position: relative;
@@ -97,7 +96,7 @@ body {
         margin: 0;
         padding: 0;
         margin-left: -800px; }
-        /* line 109, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+        /* line 109, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
         .section2 .slider_area #slider ul li {
           height: 450px;
           width: 800px;
@@ -105,10 +104,10 @@ body {
           padding: 0;
           display: block;
           float: left; }
-          /* line 116, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+          /* line 116, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
           .section2 .slider_area #slider ul li img {
             width: 100%; }
-      /* line 121, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+      /* line 121, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
       .section2 .slider_area #slider .slideButton {
         position: absolute;
         left: 0;
@@ -120,19 +119,19 @@ body {
         padding: 0;
         cursor: pointer;
         background-color: transparent; }
-      /* line 133, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+      /* line 133, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
       .section2 .slider_area #slider #buttonleft {
         top: 195px; }
-      /* line 136, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+      /* line 136, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
       .section2 .slider_area #slider #buttonright {
         top: 195px;
         left: 639px; }
 
-/* line 145, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+/* line 145, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
 .section3 {
   height: auto;
   /* popup-style */ }
-  /* line 147, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+  /* line 147, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
   .section3 .reservation_title {
     background-image: url(../img/section3_bg.png);
     background-repeat: no-repeat;
@@ -140,14 +139,14 @@ body {
     background-size: contain;
     background-color: #d2d9e0;
     padding: 100px 0; }
-  /* line 155, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+  /* line 155, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
   .section3 .select_btn {
     background-color: #191e37;
     display: inline-block;
     width: 100%;
     text-align: center;
     padding: 70px 0; }
-    /* line 161, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+    /* line 161, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
     .section3 .select_btn .list_item {
       display: inline-block;
       height: 65px;
@@ -155,19 +154,19 @@ body {
       padding: 0;
       margin: 15px 7px;
       background-color: rgba(255, 255, 255, 0.1); }
-      /* line 170, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+      /* line 170, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
       .section3 .select_btn .list_item .radio-btn {
         position: absolute;
         opacity: 0;
         visibility: hidden; }
-        /* line 174, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+        /* line 174, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
         .section3 .select_btn .list_item .radio-btn:checked + .label {
           color: #000000; }
-          /* line 176, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+          /* line 176, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
           .section3 .select_btn .list_item .radio-btn:checked + .label::before {
             border: 6px solid #00deff;
             background: #00deff; }
-      /* line 183, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+      /* line 183, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
       .section3 .select_btn .list_item .label {
         display: flex;
         align-items: center;
@@ -177,10 +176,10 @@ body {
         cursor: pointer;
         transition: all 0.25s linear;
         padding: 0 79px; }
-        /* line 192, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+        /* line 192, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
         .section3 .select_btn .list_item .label img {
           width: 120px; }
-      /* line 197, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+      /* line 197, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
       .section3 .select_btn .list_item .label::before {
         display: inline-block;
         content: "";
@@ -190,7 +189,7 @@ body {
         border: 3px solid #00deff;
         border-radius: 50%;
         transition: all 0.25s linear; }
-    /* line 208, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+    /* line 208, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
     .section3 .select_btn .input_area {
       padding: 20px 20px 16px;
       display: inline-block;
@@ -199,7 +198,7 @@ body {
       vertical-align: top;
       border: 6px solid #00deff;
       margin-right: 10px; }
-      /* line 216, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+      /* line 216, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
       .section3 .select_btn .input_area span {
         font-family: 'BMEULJIRO';
         font-size: 30px;
@@ -208,7 +207,7 @@ body {
         border-radius: 5px;
         color: #00deff;
         margin-right: 10px; }
-      /* line 226, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+      /* line 226, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
       .section3 .select_btn .input_area input {
         font-family: 'BMEULJIRO';
         padding: 0;
@@ -219,23 +218,23 @@ body {
         width: 75%;
         color: #00deff;
         background-color: transparent; }
-    /* line 238, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+    /* line 238, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
     .section3 .select_btn .btn {
       text-align: center;
       display: inline-block; }
-      /* line 241, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+      /* line 241, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
       .section3 .select_btn .btn a {
         display: block; }
-  /* line 246, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+  /* line 246, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
   .section3 .agree {
     padding: 17px 0 10px;
     text-align: left;
     width: 650px;
     margin: 0 auto; }
-    /* line 251, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+    /* line 251, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
     .section3 .agree hr {
       margin: 15px 0 20px; }
-    /* line 255, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+    /* line 255, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
     .section3 .agree label.explanation {
       font-family: 'BMEULJIRO';
       display: inline-block;
@@ -244,10 +243,10 @@ body {
       padding-left: 10px;
       vertical-align: middle;
       color: #fff; }
-      /* line 263, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+      /* line 263, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
       .section3 .agree label.explanation input {
         margin-right: 7px; }
-      /* line 266, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+      /* line 266, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
       .section3 .agree label.explanation a {
         font-family: 'BMEULJIRO';
         background-color: #00deff;
@@ -255,7 +254,7 @@ body {
         vertical-align: middle;
         padding: 10px 18px 6px;
         margin-left: 12px; }
-        /* line 273, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+        /* line 273, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
         .section3 .agree label.explanation a label.btn {
           font-size: 21px;
           font-family: 'BMEULJIRO'; }
@@ -287,10 +286,10 @@ body {
     transform: scale(1.06); }
   100% {
     transform: scale(1); } }
-  /* line 305, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+  /* line 305, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
   .section3 .popup_check {
     display: none; }
-  /* line 309, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+  /* line 309, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
   .section3 .popup_base, .section3 .popup_bg {
     position: fixed;
     top: 0;
@@ -299,13 +298,13 @@ body {
     left: 0;
     opacity: 0;
     cursor: zoom-out; }
-  /* line 319, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+  /* line 319, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
   .section3 .popup_base {
     background-color: rgba(0, 0, 0, 0.5);
     display: none;
     z-index: 9999;
     text-align: center; }
-  /* line 326, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+  /* line 326, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
   .section3 .popup_check:checked + .popup_base {
     display: block;
     animation-name: bg;
@@ -314,7 +313,7 @@ body {
     -webkit-animation-name: bg;
     -webkit-animation-duration: .5s;
     -webkit-animation-fill-mode: forwards; }
-  /* line 336, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+  /* line 336, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
   .section3 .popup_inner {
     position: absolute;
     width: 50%;
@@ -327,16 +326,16 @@ body {
     color: #000;
     padding: 40px 20px;
     border: 8px solid #000; }
-    /* line 349, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+    /* line 349, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
     .section3 .popup_inner .textbox p {
       font-family: 'BMEULJIRO';
       font-size: 25px;
       margin-top: 15px;
       line-height: 30px; }
-  /* line 358, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+  /* line 358, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
   .section3 .popup_sub {
     top: 35%; }
-  /* line 362, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+  /* line 362, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
   .section3 .popup_check:checked + .popup_base .popup_inner {
     animation-name: inner;
     animation-duration: .5s;
@@ -344,7 +343,7 @@ body {
     -webkit-animation-name: inner;
     -webkit-animation-duration: .5s;
     -webkit-animation-fill-mode: forwards; }
-  /* line 371, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+  /* line 371, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
   .section3 .menu_popup {
     position: absolute;
     width: 300px;
@@ -355,19 +354,19 @@ body {
     display: block;
     cursor: default;
     color: #000; }
-    /* line 381, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+    /* line 381, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
     .section3 .menu_popup .menu_inner {
       padding: 50px 0; }
-      /* line 383, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+      /* line 383, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
       .section3 .menu_popup .menu_inner .close {
         display: inline-block;
         position: absolute;
         top: 28px;
         left: 28px; }
-      /* line 389, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+      /* line 389, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
       .section3 .menu_popup .menu_inner ul {
         margin-top: 50px; }
-        /* line 392, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+        /* line 392, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
         .section3 .menu_popup .menu_inner ul li a {
           font-family: 'BMEULJIRO';
           font-size: 1.7rem;
@@ -377,10 +376,10 @@ body {
           color: #555;
           transition: all 0.2s ease;
           cursor: pointer; }
-          /* line 401, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+          /* line 401, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
           .section3 .menu_popup .menu_inner ul li a:hover {
             color: #111; }
-  /* line 410, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+  /* line 409, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
   .section3 .popup_check:checked + .popup_base .menu_popup {
     animation-name: inner;
     animation-duration: .5s;
@@ -388,34 +387,34 @@ body {
     -webkit-animation-name: inner;
     -webkit-animation-duration: .5s;
     -webkit-animation-fill-mode: forwards; }
-  /* line 419, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+  /* line 418, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
   .section3 .textbox {
     overflow: auto;
     width: 100%; }
-    /* line 422, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+    /* line 421, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
     .section3 .textbox p {
       font-size: 18px;
       line-height: 25px;
       word-break: keep-all; }
-  /* line 428, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+  /* line 427, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
   .section3 .privacy_text {
     text-align: left;
     padding: 15px 25px; }
-    /* line 431, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+    /* line 430, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
     .section3 .privacy_text h3 {
       font-size: 25px;
       font-weight: 700;
       margin-bottom: 20px;
       font-family: 'BMEULJIRO'; }
-    /* line 437, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+    /* line 436, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
     .section3 .privacy_text p {
       font-size: 16px;
       line-height: 27px;
       word-break: keep-all; }
-  /* line 444, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+  /* line 443, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
   .section3 .popup_btn {
     margin-top: 10px; }
-    /* line 446, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+    /* line 445, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
     .section3 .popup_btn .confirm {
       font-weight: 700;
       background-color: #000;
@@ -425,12 +424,12 @@ body {
       display: inline-block;
       cursor: pointer;
       font-family: 'BMEULJIRO'; }
-  /* line 457, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+  /* line 456, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
   .section3 .privacy_btn {
     text-align: right;
     padding-right: 25px; }
 
-/* line 466, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+/* line 463, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
 .section4 {
   background-color: #d2d9e0;
   background-image: url(../img/section4_bg.png);
@@ -439,17 +438,20 @@ body {
   background-size: auto;
   height: 850px;
   position: relative; }
-  /* line 474, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+  /* line 471, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
   .section4 img.logo {
     position: absolute;
     top: 25px;
     right: 25px;
     height: 100px; }
-  /* line 480, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+  /* line 477, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
   .section4 img.title {
     margin: 55px 0 26px 0; }
+  /* line 480, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
+  .section4 img.m_event {
+    display: none; }
 
-/* line 503, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+/* line 486, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
 .slider_test {
   position: relative;
   top: -55px;
@@ -460,16 +462,16 @@ body {
   padding: 55px 0;
   width: 1200px;
   margin: 0 auto; }
-  /* line 513, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+  /* line 496, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
   .slider_test .slick-slide {
     padding: 0 100px;
     width: 100vw; }
-    /* line 516, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+    /* line 499, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
     .slider_test .slick-slide img {
       max-width: 100%;
       margin: 0 auto;
       outline: 0; }
-  /* line 523, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+  /* line 506, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
   .slider_test [type=button] {
     position: absolute;
     top: 50%;
@@ -488,23 +490,23 @@ body {
     transition: all 0.25s ease;
     outline: 0;
     padding: 0; }
-  /* line 542, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+  /* line 525, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
   .slider_test [type=button]:hover {
     opacity: 1; }
-  /* line 545, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+  /* line 528, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
   .slider_test [type=button].slick-next {
     right: 0;
     background-image: url(../img/slider_right.png);
     background-size: contain; }
-  /* line 550, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+  /* line 533, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
   .slider_test [type=button].slick-next:hover {
     right: -5px; }
-  /* line 553, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+  /* line 536, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
   .slider_test [type=button].slick-prev {
     left: 0;
     background-image: url(../img/slider_left.png);
     background-size: contain; }
-  /* line 558, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+  /* line 541, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
   .slider_test [type=button].slick-prev:hover {
     left: -5px; }
 
@@ -547,7 +549,7 @@ body {
   75%, 100% {
     filter: url(#blur5);
     transform: scale(1.35, 0.85); } }
-  /* line 615, /Users/song/Desktop/workspace/gameberry/2021.04 무림백수 퍼블리싱/무림백수_publishing/css/style.scss */
+  /* line 598, /Users/song/Documents/GitHub/gameberry-murimbaksu/css/style.scss */
   .slider_test .do-transition {
     animation: motion-blur 0.1s linear forwards, motion-blur 0.4s linear reverse forwards 0.1s; }
 

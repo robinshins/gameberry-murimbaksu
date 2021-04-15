@@ -405,7 +405,6 @@ body {
                 }
             }
         }
-        
     }
     .popup_check:checked + .popup_base .menu_popup{
         animation-name: inner;
@@ -458,8 +457,6 @@ body {
         text-align: right;
         padding-right: 25px;
     }
-
-
 }
 
 
@@ -478,26 +475,12 @@ body {
         height: 100px;
     }
     img.title {
-        margin: 55px 0 26px 0;
-        
+        margin: 55px 0 26px 0;   
+    }
+    img.m_event {
+        display: none;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .slider_test {
