@@ -96,7 +96,7 @@
             </ul>
 
             <div class="input_area">
-                <span>010</span><input type="number" id='phone' maxlength="8" oninput="maxLengthCheck(this)"
+                <span>010</span><input type="text" id='phone' maxlength="8" oninput="maxLengthCheck(this)"
                     placeholder="-제외 후 번호입력">
             </div>
             <div class="btn" onclick="checkValidate()">
@@ -106,7 +106,7 @@
                 <label class="explanation"><input type="checkbox" id="all" name="all" value="all"
                         onclick="checkAll()">모두 동의합니다.</label>
                 <hr>
-                <label class="explanation"><input type="checkbox" id="first" name="first" value="first">개인정보 수집 및 이용
+                <label class="explanation"><input type="checkbox" id="first" name="first" value="first" onchange = "firstcheck()">개인정보 수집 및 이용
                     동의(필수)<a href="#none"><label class="trigger btn" for="privacy_1">자세히보기</label></a></label>
                 <br>
                 <label class="explanation"><input type="checkbox" id="second" name="second" value="second">사전예약 이벤트 안내를
@@ -143,7 +143,7 @@
                     if (allbtn.checked == true) {
                         firstbtn.click();
                         secondbtn.click();
-                    } else {
+                    }else {
                         firstbtn.checked = false;
                         secondbtn.checked = false;
                     }
@@ -154,23 +154,36 @@
                     }
                 }
 
+                var phoneValidate = function (str) {
+                    str = str.replace(/[^0-9\s]/g, '');
+                    return str;
+                }
+                var phone = document.getElementById('phone');
+                    phone.onkeyup = function () {
+                        this.value = phoneValidate(this.value);
+                    }
 
-                // var autoSpacePhone = function (str) {
-                //     str = str.replace(/[^0-9\s]/g, '');
-                //      if (str.length == 4) {
-                //         str += ' ';0
+                function firstcheck(){
+                    var allbtn = document.getElementById('all')
+                    var check1 = $(':checkbox[id="first"]').is(":checked");
+                    var check2 = $(':checkbox[id="second"]').is(":checked");
+                    if(check1 == false){
+                        allbtn.checked = false;
+                    }
 
-                //     }
-                //     return str;
-                // }
+                }
 
-                // var phone = document.getElementById('phone');
-                //     phone.onkeyup = function () {
-                //         this.value = autoSpacePhone(this.value);
-                //     }
+                function secondcheck(){
+                    var allbtn = document.getElementById('all')
+                    var check1 = $(':checkbox[id="first"]').is(":checked");
+                    var check2 = $(':checkbox[id="second"]').is(":checked");
+                    if(check2 == false){
+                        allbtn.checked = false
+                    }
 
+                }
 
-
+                var isclick = false
                 function checkValidate() {
                     console.log(db)
                     var google = $(':radio[id="google"]').is(":checked");
@@ -186,10 +199,12 @@
                         $("#popup_2").trigger("click");
                     } else {
 
-
+                        if(!isclick){
+                        isclick = true
                         db.collection("results").where('phone', '==', '010' + phone).get().then((querySnapshot) => {
                             console.log(querySnapshot.size)
                             if (querySnapshot.size != 0) {
+                                isclick = false;
                                 $("#popup_3").trigger("click");
                             } else {
                                 db.collection("results").add({
@@ -198,14 +213,18 @@
                                     phone: '010' + phone
                                 })
                                     .then((docRef) => {
+                                        isclick = false;
                                         console.log("Document written with ID: ", docRef.id);
                                         $("#popup_4").trigger("click");
                                     })
                                     .catch((error) => {
+                                        isclick = false;
                                         console.error("Error adding document: ", error);
                                     });
                             }
                         });
+
+                        }
 
 
                     }
@@ -400,3 +419,4 @@
 </body>
 
 </html>
+
